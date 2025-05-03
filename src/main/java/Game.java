@@ -5,7 +5,6 @@ public class Game {
         JFrame frame = new JFrame("2D Blocky World");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
-
         GamePanel gamePanel = new GamePanel();
         frame.add(gamePanel);
         frame.pack();
