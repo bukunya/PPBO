@@ -2,9 +2,9 @@ import javax.swing.JFrame;
 
 public class Game {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("2D Blocky World");
+        JFrame frame = new JFrame("Fireboy and Watergirl: Jungle");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setResizable(false);
+        frame.setResizable(true);
         GamePanel gamePanel = new GamePanel();
         frame.add(gamePanel);
         frame.pack();
